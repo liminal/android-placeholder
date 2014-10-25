@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:place="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ph_text_size_medium"
+        android:padding="@dimen/ph_item_spacing"
+        android:text="@string/demo_background_header"/>
+
+    <View
+        android:id="@+id/top_left"
+        android:layout_below="@id/header"
+        android:background="@drawable/ph_placeholder_cards"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <se.lightside.placeholder.widget.PlaceholderView
+        android:layout_below="@id/top_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        place:ph_gridSpacingBlue="48dp"
+        place:ph_gridSpacingRed="48px"
+        place:ph_gridSpacingGreen="16pt" />
+
+</RelativeLayout>
+

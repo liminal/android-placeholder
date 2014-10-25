@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PlaceholderSample</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non tellus malesuada diam semper pulvinar. Pellentesque habitant morbi tristique</string>
+    <string name="demo_background_header">Sometimes you need some simple background placeholders to give you an idea about how things will look</string>
+    <string name="demo_dimensions_header">Sometimes you need to lay out some views and get an aproximate feel for how big they are</string>
+    <string name="demo_icon_header">Sometimes you need some placeholder icons until your graphics designer gets you the assets you need</string>
+    <string name="demo_text_header">Sometimes you want to layout a textbox without the distraction of a lorem ipsum text</string>
+    <string name="demo_stockphoto_header">Sometimes you need something prettier than a grid or cross and then you go looking among the placeholder drawables prefixed ph_photo_*</string>
+
+</resources>

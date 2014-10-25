@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Placeholder attributes
+    -->
+
+    <!-- should view have a crossed background -->
+    <attr name="ph_bgCross" format="boolean" />
+
+
+    <!--
+       Placeholder view styleables
+    -->
+    <declare-styleable name="PlaceholderView">
+        <attr name="ph_gridSpacingRed"     format="dimension"/>
+        <attr name="ph_gridSpacingGreen"   format="dimension"/>
+        <attr name="ph_gridSpacingBlue"    format="dimension"/>
+        <attr name="ph_bgCross" />
+        <attr name="ph_showDimensions" format="string" />
+    </declare-styleable>
+
+</resources>

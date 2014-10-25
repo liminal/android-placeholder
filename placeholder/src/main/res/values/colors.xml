@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors -->
+    <color name="ph_primary_color_blue">#0099CC</color>
+    <color name="ph_primary_color_blue_light">#33B5E5</color>
+    <color name="ph_primary_color_purple">#9933CC</color>
+    <color name="ph_primary_color_purple_light">#AA66CC</color>
+    <color name="ph_primary_color_green">#669900</color>
+    <color name="ph_primary_color_green_light">#99CC00</color>
+    <color name="ph_primary_color_orange">#FF8800</color>
+    <color name="ph_primary_color_orange_light">#FFBB33</color>
+    <color name="ph_primary_color_red">#CC0000</color>
+    <color name="ph_primary_color_red_light">#FF4444</color>
+
+    <color name="ph_block_gray">#666</color>
+</resources>
