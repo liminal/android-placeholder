@@ -19,7 +19,9 @@ actual assets you want to use you can just drop this dependency.
 Usage
 =====
 
-You can find the first dev-version  [here](https://github.com/liminal/android-placeholder/releases/download/v0.2.0/placeholder-0.2.0.aar)
+You can find the latest dev-version here 
+
+[ ![Download](https://api.bintray.com/packages/liminal/android-placeholder/android-placeholder/images/download.svg) ](https://bintray.com/liminal/android-placeholder/android-placeholder/_latestVersion)
 
 Just add the library as a dependency in your android project and you're good to go.
 ```groovy
