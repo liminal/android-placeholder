@@ -22,9 +22,22 @@ Usage
 You can find the first dev-version  [here](https://github.com/liminal/android-placeholder/releases/download/v0.2.0/placeholder-0.2.0.aar)
 
 Just add the library as a dependency in your android project and you're good to go.
+```groovy
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
 
-(I'll try to get around to getting the .aar up on a proper repository but until then you
- can just build it with `./gradlew assemble`)
+dependencies {
+    [...]
+    compile 'se.lightside.placeholder:placeholder:0.2.0@aar'
+}
+
+```
+
+
+(I'll try to get around to getting the .aar up on a proper repository but until then the above should work)
 
  Once it's in your dependencies you'll have access to a bunch of stock placeholder drawables in
  R.drawable.ph_* and a special PlaceholderView that provides some nice placeholder functionality
