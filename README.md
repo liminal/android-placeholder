@@ -19,6 +19,8 @@ actual assets you want to use you can just drop this dependency.
 Usage
 =====
 
+You can find the first dev-version  [here](https://github.com/liminal/android-placeholder/releases/download/v0.2.0/placeholder-0.2.0.aar)
+
 Just add the library as a dependency in your android project and you're good to go.
 
 (I'll try to get around to getting the .aar up on a proper repository but until then you
