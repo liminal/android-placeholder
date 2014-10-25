@@ -26,8 +26,8 @@ You can find the latest dev-version here
 Just add the library as a dependency in your android project and you're good to go.
 ```groovy
 repositories {
-    flatDir {
-        dirs 'libs'
+    maven {
+        url "http://dl.bintray.com/liminal/maven/"
     }
 }
 
@@ -37,9 +37,6 @@ dependencies {
 }
 
 ```
-
-
-(I'll try to get around to getting the .aar up on a proper repository but until then the above should work)
 
  Once it's in your dependencies you'll have access to a bunch of stock placeholder drawables in
  R.drawable.ph_* and a special PlaceholderView that provides some nice placeholder functionality
