@@ -21,7 +21,7 @@ Usage
 
 You can find the latest dev-version here 
 
-[ ![Download](https://api.bintray.com/packages/liminal/android-placeholder/android-placeholder/images/download.svg) ](https://bintray.com/liminal/android-placeholder/android-placeholder/_latestVersion)
+[ ![Download](https://api.bintray.com/packages/liminal/maven/android-placeholder/images/download.svg) ](https://bintray.com/liminal/maven/android-placeholder/_latestVersion)
 
 Just add the library as a dependency in your android project and you're good to go.
 ```groovy
