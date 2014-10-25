@@ -33,6 +33,13 @@ Just add the library as a dependency in your android project and you're good to 
  The main idea is that it should all just work and best of all it should all just work in the
  layout editor in Android Studio as well. After all, that was sort of the reason for it all.
 
+Screenshots
+===========
+<img src="art/screen_bgs.png" width="400" />
+<img src="art/screen_dimens.png" width="400" />
+<img src="art/screen_blocktext.png" width="400" />
+<img src="art/screen_stock.png" width="400" />
+
 
 License
 =======
