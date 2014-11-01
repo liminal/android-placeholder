@@ -28,4 +28,6 @@ android {
 dependencies {
     compile project(':placeholder')
     compile 'com.android.support:appcompat-v7:21.0.0'
+    compile 'com.jakewharton:butterknife:6.0.0'           // UI View injection library
+
 }

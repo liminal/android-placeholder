@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ph_vertical_row_height">
+    <TextView
+        android:id="@+id/nav_entry_title"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/ph_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="?android:attr/textColorPrimary"
+        tools:text="Navigation Menu Entry" />
+
+</RelativeLayout>
