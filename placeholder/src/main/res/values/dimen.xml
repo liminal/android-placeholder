@@ -11,4 +11,19 @@
     <dimen name="ph_item_spacing_small">4dp</dimen>
     <dimen name="ph_item_spacing_edge">16dp</dimen>
 
+    <dimen name="ph_baseline_grid">8dp</dimen>
+    <dimen name="ph_baseline_type_grid">4dp</dimen>
+
+    <dimen name="ph_horizontal_margin">16dp</dimen>
+    <dimen name="ph_horizontal_content_margin_left">72dp</dimen>
+    <dimen name="ph_horizontal_content_margin_right">32dp</dimen>
+    <dimen name="ph_horizontal_navdrawer_margin">56dp</dimen>
+
+    <dimen name="ph_vertical_notification_height">24dp</dimen>
+    <dimen name="ph_vertical_actionbar_height">56dp</dimen>
+    <dimen name="ph_vertical_header_height">48dp</dimen>
+    <dimen name="ph_vertical_row_height">72dp</dimen>
+
+    <dimen name="ph_fab_big_width">56dp</dimen>
+    <dimen name="ph_fab_small_width">40dp</dimen>
 </resources>
