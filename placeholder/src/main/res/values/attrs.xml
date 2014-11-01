@@ -1,22 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--
-        Placeholder attributes
-    -->
+    <!-- Placeholder view styleables -->
 
+    <!-- Distance between red/green/blue grid lines-->
+    <attr name="ph_gridSpacingRed" format="dimension"/>
+    <attr name="ph_gridSpacingGreen" format="dimension"/>
+    <attr name="ph_gridSpacingBlue" format="dimension"/>
     <!-- should view have a crossed background -->
     <attr name="ph_bgCross" format="boolean" />
+    <!-- Show dimensions as px/dp-->
+    <attr name="ph_showDimensions" format="string" />
 
 
-    <!--
-       Placeholder view styleables
-    -->
+
     <declare-styleable name="PlaceholderView">
-        <attr name="ph_gridSpacingRed"     format="dimension"/>
-        <attr name="ph_gridSpacingGreen"   format="dimension"/>
-        <attr name="ph_gridSpacingBlue"    format="dimension"/>
-        <attr name="ph_bgCross" />
-        <attr name="ph_showDimensions" format="string" />
+        <!-- Distance between red/green/blue grid lines-->
+        <attr name="ph_gridSpacingRed" />
+        <attr name="ph_gridSpacingGreen" />
+        <attr name="ph_gridSpacingBlue" />
+        <!-- should view have a crossed background -->
+        <attr name="ph_bgCross"  />
+        <!-- Show dimensions as px/dp-->
+        <attr name="ph_showDimensions" />
+    </declare-styleable>
+
+    <declare-styleable name="RatioLine">
+        <attr name="ratio"      format="string" />
+        <attr name="labelColor" format="color" />
+        <attr name="textColor"  format="color" />
     </declare-styleable>
 
 </resources>
