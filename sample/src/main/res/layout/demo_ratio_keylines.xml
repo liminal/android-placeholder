@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.lightside.placeholder.view.RatioLineOverlay
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <se.lightside.placeholder.view.RatioLine
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ratio="16:9" />
+
+    <se.lightside.placeholder.view.RatioLine
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ratio="3:2" />
+
+    <se.lightside.placeholder.view.RatioLine
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:labelColor="#0f0"
+        app:textColor="#000"
+        app:ratio="4:3" />
+
+    <se.lightside.placeholder.view.RatioLine
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ratio="1:1" />
+
+    <se.lightside.placeholder.view.RatioLine
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ratio="3:4" />
+
+    <se.lightside.placeholder.view.RatioLine
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ratio="2:3" />
+
+
+</se.lightside.placeholder.view.RatioLineOverlay>

@@ -68,6 +68,8 @@ public class DemoHostActivity extends ActionBarActivity {
         mDemos.add(new DemoNavEntry("StockPhoto",  R.layout.demo_stockphoto, 0));
         mDemos.add(new DemoNavEntry("Dimensions",  R.layout.demo_dimensions, 0));
         mDemos.add(new DemoNavEntry("Text",        R.layout.demo_text, 0));
+        mDemos.add(new DemoNavEntry("Ratio Keylines",    R.layout.demo_ratio_keylines, 0));
+
         mDrawerListView.setAdapter(mDemos);
 
 //                new ArrayAdapter<>(
