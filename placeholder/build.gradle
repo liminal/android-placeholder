@@ -1,14 +1,15 @@
 apply plugin: 'com.android.library'
 
+version = VERSION_NAME
+group   = GROUP
+
 android {
-    compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
-    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+    compileSdkVersion 21
+    buildToolsVersion '21.1.0'
 
     defaultConfig {
         minSdkVersion 10
-        targetSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
-        versionCode Integer.parseInt(project.VERSION_CODE)
-        versionName version
+        targetSdkVersion 21
     }
 
     lintOptions {
@@ -17,7 +18,7 @@ android {
 
     buildTypes {
         release {
-            runProguard false
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
