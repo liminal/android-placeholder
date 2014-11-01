@@ -40,9 +40,9 @@ afterEvaluate { project ->
             mavenDeployer {
                 beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
 
-                pom.groupId = GROUP
+                pom.groupId = group
                 pom.artifactId = POM_ARTIFACT_ID
-                pom.version = VERSION_NAME
+                pom.version = version
 
                 repository(url: repositoryUrl) {
                     authentication(userName: repositoryUsername, password: repositoryPassword)

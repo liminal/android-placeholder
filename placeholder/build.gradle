@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
-version = VERSION_NAME
-group   = GROUP
+version = '0.2.3'
+group   = 'se.lightside.placeholder'
 
 android {
     compileSdkVersion 21
